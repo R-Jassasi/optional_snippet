@@ -267,8 +267,6 @@ button:active {
     background-color:#3e8e41;
     box-shadow: 0 5px darkred;
     transform: translateY(4px);
-    transition-duration: 0.5s;
-
 }
 
 /*  footer goes here */
@@ -407,7 +405,7 @@ footer{
   
   /* Don't need button navigation */
   @supports (scroll-snap-type) {
-    .slider > a {
+      .slider > a {
       display: none;
-    }
-  }
+      }
+   }

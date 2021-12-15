@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap">
+
+    <title>Let's Flexbox!</title>
+
+</head>
+<body>
+    
+
+    <!--Header title and menu begin here-->
+
+    <!-- to add ANCHOR LINKS, add (id="name-of-thingy") in the thing you want to link
+    and in the text/icon link, add (<a href="#name-of-thingy">BUTTON TEXT</a>). 
+     check the list for examples :) -->
+    <header>
+          <h1>Flexbox Rundown</h1>           
+
+            <div class="container-navigation">
+                <a href="#flexgrow"><button>1.FlexGrow</button></a>
+                <a href="#centeritem"><button>2.CenterItem</button></a>
+                <a href="#video"><button>3.Video</button></a>
+                <a class="push" href="#audio"><button>4.Audio</button></a>
+                <a href="#media"><button>5.Media</button></a>
+                <a href="slider.html" target="blank"><button>
+                    6.Would you like to know more?</button></a>
+
+            </div>
+          
+    </header>
+    
+    <!-- end of header information here -->
+ 
+ 
+        <main>
+            <div id="flexgrow" class="section-one">
+                <div class="flexgrow-container">
+                    <div class="box1">ONE</div>
+                    <div class="box2">TWO</div>
+                    <div class="box3">THREE</div>
+
+                </div>
+
+            </div>
+
+            <div id="centeritem" class="section-two">
+                
+
+                    <img src="http://placekitten.com/600/500">
+
+                
+            </div>
+
+            <!-- video goes below -->
+            <!-- "iframe" to put another content in the webpage from 
+                somewhere else, adjust its resolution-->
+
+            <div id="video" class="section-three">
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/vodnI38cNI0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ 
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/SGJFWirQ3ks" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            </div>
+
+            <div id="audio" class="section-four">
+
+                <figure>
+                    <figcaption class="cor-blimey">Cor Blimey!</figcaption>
+                    <audio
+                        controls src="audio/corblimeygovernorfnl.m4a">
+                            Your browser does not support the
+                            <code>audio</code> element.
+                    </audio>
+                </figure>
+
+ 
+
+            </div>
+
+            <div id="media" class ="section-five">
+                
+                <div class="media-container">
+                    
+                        <img src="https://placedog.net/400/600">
+                    
+                    <div class="mediacontent">Here is a placeholder dog. This place holder is here until I finish my projects and upload my own images. Everytime I change the size, the    dog changes and a new fun dog shows up. I like this feature as dogs are our best friends. And also like to fart a lot. </div>
+
+                </div>
+                
+
+                <div class="media-container-flipped">
+                    <div class="image">
+                        <img src="https://placebear.com/400/600">
+                    </div>
+                    <div class="mediacontent">Here is a placeholder bear. This place holder is here until I finish my projects and upload my own images. Everytime I change the size, the bear changes and a new fuzzy bear shows up. I like this feature as bears are super cool, but have no issues with eating us like a salmon swimming upstream. </div>
+                </div>
+                
+                
+
+            </div>
+        
+
+        </main> 
+
+        <footer>
+            <p>This website is brought to you by the Letter F, B, 
+                and the number 42. It was made by Rahil Al Jassasi.</p>
+            
+        </footer>
+</body>
+</html>
